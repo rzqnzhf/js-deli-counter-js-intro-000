@@ -18,14 +18,15 @@ function nowServing(katzDeliLine) {
 function currentLine(line) {
   if (line.length > 0) {
     var x = '';
+    var arr = [];
     var output = 'The line is currently: ';
     for (var i = 0; i <= line.length; i++) {
       var name = line[i];
       var addOutput = `${i + 1}. ${name}, `;
-      var y = output.concat(addOutput);
-      return x = y;
+      arr.push(addOutput);
     }
 
+    output + arr.join(', ')
     /*
     var i = 1;
     var indexName = i - 1;
@@ -38,5 +39,5 @@ function currentLine(line) {
   } else {
       return 'The line is currently empty.'
     }
-//    return x
+    return x
 }
