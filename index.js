@@ -20,7 +20,7 @@ function currentLine(line) {
     var name = line.shift();
     var output = 'The line is currently: ';
     for (var i = 0; i <= line.length; i++) {
-      var addOutput = `${i}. ${name}, `;
+      var addOutput = `${i + 1}. ${name}, `;
       var x = output.concat(addOutput);
       return x;
     }
