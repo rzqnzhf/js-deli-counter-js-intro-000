@@ -22,7 +22,7 @@ function currentLine(line) {
       var name = line[i];
       var addOutput = `${i + 1}. ${name}, `;
       var x = output.concat(addOutput);
-      return x;
+      //return x;
     }
 
     /*
@@ -37,4 +37,5 @@ function currentLine(line) {
   } else {
       return 'The line is currently empty.'
     }
+    return x
 }
