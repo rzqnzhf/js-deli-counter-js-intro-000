@@ -26,7 +26,7 @@ function currentLine(line) {
       arr.push(addOutput);
     }
 
-    output + arr.join(', ')
+    return output + arr.join(', ')
     /*
     var i = 1;
     var indexName = i - 1;
