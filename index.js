@@ -21,7 +21,7 @@ function currentLine(line) {
     for (var i = 0; i <= line.length; i++) {
       var name = line[i];
       var addOutput = `${i + 1}. ${name}, `;
-      var x = output.concat('name');
+      var x = output.concat(`${name}`);
       //return x;
     }
 
