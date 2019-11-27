@@ -23,7 +23,7 @@ function currentLine(line) {
       var name = line[i];
       var addOutput = `${i + 1}. ${name}, `;
       var x = output.concat(addOutput);
-      //return x;
+      return x;
     }
 
     /*
