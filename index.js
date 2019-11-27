@@ -25,7 +25,7 @@ function currentLine(line) {
       var addOutput = `${i + 1}. ${name}`;
       arr.push(addOutput);
     }
-    
+
     return output + arr.join(', ')
 
   } else {
