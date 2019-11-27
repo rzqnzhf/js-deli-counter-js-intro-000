@@ -19,9 +19,10 @@ function currentLine(line) {
   if (line.length > 1) {
     var output = 'The line is currently: ';
     for (var i = 0; i <= line.length; i++) {
+      var arr = [];
       var name = line[i];
-      var addOutput = `${i + 1}. name, `;
-      var x = output.concat(addOutput);
+      var addOutput = `${i + 1}. ${name}, `;
+      var x = arr.push(addOutput);
       return x;
     }
 
