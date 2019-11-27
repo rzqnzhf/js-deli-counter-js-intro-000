@@ -17,11 +17,13 @@ function nowServing(katzDeliLine) {
 
 function currentLine(line) {
   if (line.length > 0) {
+    var x = '';
     var output = 'The line is currently: ';
     for (var i = 0; i <= line.length; i++) {
       var name = line[i];
       var addOutput = `${i + 1}. ${name}, `;
-      var x = output.concat(addOutput);
+      var y = output.concat(addOutput);
+      x = y;
     }
 
     /*
