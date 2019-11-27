@@ -25,16 +25,8 @@ function currentLine(line) {
       var addOutput = `${i + 1}. ${name}`;
       arr.push(addOutput);
     }
-
+    
     return output + arr.join(', ')
-    /*
-    var i = 1;
-    var indexName = i - 1;
-    var baseOutput = `The line is currently: `;
-    while (i <= line.length) {
-      var modifiedLineOutput = `${i}. ${line[indexName]}, `;
-      i++;
-    */
 
   } else {
       return 'The line is currently empty.'
